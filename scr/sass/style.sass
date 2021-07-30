@@ -11,7 +11,6 @@ body
     color: $m_color
 
 #showcase
-    // background-image: url('../img/show_case.jpg') 
     background-image: url('../img/miami.webp') 
     background-size: cover
     background-position:  center
@@ -72,3 +71,36 @@ body
         color: #fff
     .box2
         background-color: #f9f9f9
+
+footer 
+	padding: 14px 23px 39px 23px
+	a 
+		&:hover 
+			text-decoration: none
+.footer
+	&_divider
+		width: 299px
+		height: 4px
+		background-color: $m_color
+		margin: 0 auto
+	&_wrapper
+		display: flex 
+		justify-content: space-between
+		align-items: flex-start
+		padding-top: 32px
+
+	&_social
+		width: 160px
+		display: flex
+		justify-content: space-between
+		&_item 
+			display: flex 
+			justify-content: center
+			align-items: center
+			margin: 0 4px 
+			width: 32px
+			height: 32px
+			background-color: #070716
+			border-radius: 100%
+			i 
+				color: #fff
